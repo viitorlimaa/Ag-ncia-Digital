@@ -1,0 +1,198 @@
+/*config da pagina*/
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    transition: 0.1s linear;
+
+}
+body{
+    margin: 0;
+}
+
+/*parte de cima da pagina*/
+.navbar{
+    display:flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background:white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex:20%;
+text-align:left;
+}
+
+.logo h1{
+    color:#180f4a;
+    margin-left: 10%;
+font-size: 34px;
+}
+
+.menu{
+    flex: 80%;
+   text-align: center;
+    padding: 20px;
+}
+.menu a{
+    color:#180f4a;
+text-decoration: none;
+font-size: 15px;
+padding: 20px 15px;
+}
+.menu a:hover{
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+
+#botao{
+    color: aliceblue;
+    background:#180f4a;
+    padding: 5px;
+    border: solid white;
+    border-radius: 1px;
+    margin-right: 10%;
+
+}
+
+#botao:hover{
+    background: #ff2978;
+    padding: 8px;
+} 
+
+/*meio da pagina*/
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 600px;
+    padding-top: 100px;
+}
+.headline{
+    flex:40%;
+    margin-left: 10%;
+    
+}
+.headline h2{
+font-weight: 900;
+font-size: 20px;
+color: #180f4a;
+padding: 0;
+margin: 0;
+}
+.headline p{
+    color: gray;
+    text-align: left;
+}
+.contact-btn{
+    display: inline-block;
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    text-align: center;border: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background: #180f4a;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+  text-align: center;
+  align-items: center;
+}
+section{
+    margin-top: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 5%;
+    font-family:"Roboto", sans-serif; 
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.serviços{
+    display:inline-block ;
+    margin-top: 5%;
+
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #180f4a;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.card:hover{
+    background: #ff2978;
+    color: white;
+
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.texto-oculto{
+    display:none;
+}
+
+.card:hover .texto-oculto{
+    display: inline-block;
+}
+
+/*parte de baixo da pagina (rodape)*/
+
+footer{
+margin-top: 100px;
+height:300px;
+background-image: linear-gradient(180deg,#180f4a,#090422,black);
+text-align: center;
+border-top: 5px solid #ff2978;
+}
+.logo-rodape{
+    padding: 50px;
+    
+}
+
+footer h1{
+color: white;
+font-family: "roboto",sans-serif;
+font-size: 34px;
+}
+
+footer p{
+    color: white;
+}
+
+footer b{
+color: white;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px 
+    ;right: 5px;
+   
+}
